@@ -39,7 +39,7 @@ const HeroInline = () => {
         <div className="flex flex-col items-center gap-3 text-center">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-neutral-900/90 border border-neutral-700/80 shadow-[0_10px_25px_rgba(0,0,0,0.8)] backdrop-blur-md text-xs font-mono tracking-widest text-neutral-300 uppercase mb-2 transform transition-transform hover:scale-105 hover:border-amber-500/50">
             <span className="flex h-2 w-2 rounded-full bg-amber-400 animate-ping" />
-            <span>3D Spatial Tattoo Artistry</span>
+            <span>Luxury Tattoo Artistry</span>
           </div>
 
           <TextAnimation
@@ -51,7 +51,7 @@ const HeroInline = () => {
           />
 
           <TextAnimation
-            text={"Exquisite 3D-inspired tattooing for the discerning individual. Volumetric depth, procedural shading, and bespoke spatial realism."}
+            text={"Exquisite bespoke tattooing for the discerning individual. High-precision linework, custom depth, and timeless luxury artistry."}
             variant={"fade-blur"}
             gradientText={false}
             tag="p"
